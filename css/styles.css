@@ -84,7 +84,7 @@ body {
 .effect {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -131,13 +131,11 @@ button:focus {
 }
 
 .text-section-main-goals {
-        {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11111;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-    }
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .text-main {
@@ -167,6 +165,7 @@ button:focus {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 
@@ -203,7 +202,7 @@ button:focus {
 .studio-end {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
