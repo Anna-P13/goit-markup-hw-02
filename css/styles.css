@@ -148,7 +148,7 @@ button:focus {
     color: #2e2f42;
 }
 
-.text-main .p {
+.text-main .text-main-paragraf {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -160,10 +160,21 @@ button:focus {
     background: #f4f4fd;
 }
 
+.team-section {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+
+
 .new-section {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -177,7 +188,7 @@ button:focus {
     color: #2e2f42;
 }
 
-.about .p {
+.about .info-about {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -185,11 +196,11 @@ button:focus {
     color: #434455;
 }
 
-footer {
+.end-page {
     background: #2e2f42;
 }
 
-.studio2 {
+.studio-end {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
