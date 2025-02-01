@@ -1,13 +1,11 @@
 body {
     font-family: "Roboto", sans-serif;
     background: #fff;
+    color: #434455;
 }
 
 .webstudio {
     text-decoration: none;
-}
-
-.web {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -46,7 +44,7 @@ body {
     color: #404bbf;
 }
 
-.about-us .link:active {
+.about-us .link:focus {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -61,10 +59,18 @@ address .link {
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
-    font-style: normal;
+
 }
 
 address .link:hover {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+}
+
+address .link:focus {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -80,7 +86,7 @@ h1 {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-
+    line-height: 1.07
 }
 
 button {
@@ -106,12 +112,33 @@ button:hover {
 
 }
 
-.section1 {
+button:focus {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: #404bbf;
+    cursor: pointer;
+
+}
+
+.section-one {
     background: #2e2f42;
 
 }
 
-h3 {
+.text-section-main-goals {
+        {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+    }
+}
+
+.text-main {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -119,7 +146,7 @@ h3 {
     color: #2e2f42;
 }
 
-h3 .p {
+.text-main .p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -131,30 +158,6 @@ h3 .p {
     background: #f4f4fd;
 }
 
-h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-h4 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-h4 .p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
-}
 
 h5. {
     font-weight: 500;
