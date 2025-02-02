@@ -170,7 +170,7 @@ button:focus {
     background-color: #FFFFFF;
 }
 
-.text-main .text-main-info {
+.text-main-info {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -182,7 +182,7 @@ button:focus {
 
 
 
-.text-main .text-main-paragraf {
+.text-main-paragraf {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
