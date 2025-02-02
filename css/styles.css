@@ -59,7 +59,7 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
-    font-style: normal
+    font-style: normal;
 }
 
 .info .link:hover {
@@ -68,7 +68,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #404bbf;
-    font-style: normal
+    font-style: normal;
 }
 
 .info .link:focus {
@@ -77,7 +77,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #404bbf;
-    font-style: normal
+    font-style: normal;
 }
 
 
@@ -143,8 +143,21 @@ button:focus {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #2e2f42;
 }
+
+.text-main .text-main-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+
+
 
 .text-main .text-main-paragraf {
     font-weight: 400;
@@ -177,6 +190,7 @@ button:focus {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    background-color: #FFFFFF
 }
 
 .about {
@@ -185,6 +199,7 @@ button:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    background-color: #FFFFFF
 }
 
 .about .info-about {
@@ -193,6 +208,7 @@ button:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    background-color: #FFFFFF
 }
 
 .end-page {
