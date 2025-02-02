@@ -163,7 +163,10 @@ button:focus {
     color: #2e2f42;
     text-transform: capitalize;
     text-align: center;
-    background-color: #FFFFFF;
+}
+
+.team-block {
+    background-color: #FFFFFF
 }
 
 .text-main {
