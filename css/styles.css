@@ -146,7 +146,19 @@ button:focus {
     color: #2e2f42;
 }
 
+.team {
+    background: #f4f4fd;
+}
 
+.team-section {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
 
 .text-main {
     font-weight: 500;
@@ -155,6 +167,7 @@ button:focus {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    background-color: #FFFFFF;
 }
 
 .text-main .text-main-info {
@@ -177,19 +190,6 @@ button:focus {
     color: #434455;
 }
 
-.team {
-    background: #f4f4fd;
-}
-
-.team-section {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize;
-}
 
 
 
@@ -200,7 +200,8 @@ button:focus {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    text-transform: capitalize
 }
 
 .about {
@@ -209,7 +210,7 @@ button:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 
 .about .info-about {
