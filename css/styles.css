@@ -4,6 +4,10 @@ body {
     color: #434455;
 }
 
+ul {
+    list-style: none;
+}
+
 .webstudio {
     text-decoration: none;
     font-family: "Raleway", sans-serif;
@@ -52,6 +56,10 @@ body {
     color: #404bbf;
 }
 
+.info {
+    font-style: normal;
+}
+
 .info .link {
     font-weight: 400;
     font-size: 16px;
@@ -59,7 +67,6 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
-    font-style: normal;
 }
 
 .info .link:hover {
@@ -68,7 +75,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #404bbf;
-    font-style: normal;
 }
 
 .info .link:focus {
@@ -92,7 +98,6 @@ body {
 }
 
 button {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -104,7 +109,7 @@ button {
 }
 
 button:hover {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -115,7 +120,7 @@ button:hover {
 }
 
 button:focus {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -210,7 +215,7 @@ button:focus {
     background-color: #FFFFFF;
 }
 
-.about .info-about {
+.info-about {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
